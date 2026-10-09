@@ -1,0 +1,17 @@
+{
+  "name": "vela-command-center",
+  "version": "1.0.0",
+  "description": "3D Command Center dashboard for Vela agent profiles — live feed, agent messaging, auto-reply polling",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": ["hermes", "agent", "dashboard", "threejs", "command-center"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
